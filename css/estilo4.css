@@ -9,6 +9,9 @@ fieldset {
     width: 500px;
     height: 250px;
     padding: 10px;
+    position: absolute;
+    left: 500px;
+    right: 200px;
 }
 
 legend {
