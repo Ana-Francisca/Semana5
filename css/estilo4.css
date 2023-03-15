@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+fieldset {
+    background-color: rgb(218, 252, 218);
+    border-color: rgb(23, 227, 23);
+    background-image: linear-gradient(white, rgb(145, 248, 145));
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+}
+
+legend {
+    color: red;
+    border: 2px solid;
+    border-color: rgb(23, 227, 23);
+    background-color: rgb(245, 178, 201);
+}
+
+label {
+    color: green;
+    padding: 5px;
+    right: 200px;
+}
+
+input {
+    color: black;
+    position: absolute;
+}
+
+#nome, #email, #area {
+    position: absolute;
+    left: 180px;
+}
