@@ -7,11 +7,14 @@ fieldset {
     border-color: rgb(23, 227, 23);
     background-image: linear-gradient(white, rgb(145, 248, 145));
     width: 500px;
-    height: 250px;
+    height: 300px;
     padding: 10px;
     position: absolute;
     left: 500px;
     right: 200px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 legend {
@@ -30,9 +33,16 @@ label {
 input {
     color: black;
     position: absolute;
+    font-size: 15px;
 }
 
 #nome, #email, #area {
     position: absolute;
     left: 180px;
+}
+
+textarea {
+    color: black;
+    resize: none;
+    border-radius: 5px;
 }
