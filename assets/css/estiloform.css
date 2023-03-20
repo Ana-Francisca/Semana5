@@ -1,0 +1,56 @@
+body {
+    font-size: 62.5%;
+}
+
+form {
+    width: 25em;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #090;
+}
+
+fieldset {
+    background-image: linear-gradient(white, #cceccc);
+    padding: 0 0.5em;
+    border: 1px solid #090;
+}
+
+legend {
+    background: #fef;
+    color: red;
+    padding: 0 0.5em;
+    border: 1px solid #0c0
+}
+
+div {
+    float: left;
+    margin: 1em 0;
+}
+
+label {
+    display: block;
+    width: 5.7em;
+    margin-bottom: 1em;
+}
+
+input {
+    background-color: #fef;
+    display: block;
+    width: 15em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+input#enviar {
+    clear: both;
+    width: auto;
+}
+
+textarea {
+    display: block;
+    background-color: #fef;
+    border: 1px solid #ccc;
+    width: 15em;
+    overflow-y: scroll;
+    resize: none;
+}
