@@ -7,7 +7,7 @@ fieldset {
     border-color: rgb(23, 227, 23);
     background-image: linear-gradient(white, rgb(145, 248, 145));
     width: 500px;
-    height: 300px;
+    height: 280px;
     padding: 10px;
     position: absolute;
     left: 500px;
@@ -18,10 +18,10 @@ fieldset {
 }
 
 legend {
-    color: red;
+    color: rgb(230, 2, 2);
     border: 2px solid;
     border-color: rgb(23, 227, 23);
-    background-color: rgb(245, 178, 201);
+    background-color: rgb(253, 210, 225);
 }
 
 label {
