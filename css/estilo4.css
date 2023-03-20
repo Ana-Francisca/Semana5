@@ -42,7 +42,8 @@ input {
 }
 
 textarea {
+    overflow-y: scroll;
+    height: 120px;
     color: black;
     resize: none;
-    border-radius: 5px;
 }
